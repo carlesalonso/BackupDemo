@@ -78,6 +78,11 @@ I escriure la següent entrada:
 ```bash
 0   23   *   *   7   /root/fullBackup.sh
 ```
+Si volem que s'executi, per exemple, de dilluns a dissabte, es faria així:
+
+```bash
+0   23  *  *   1-6 /root/fullBackup.sh
+```
 
 
 
