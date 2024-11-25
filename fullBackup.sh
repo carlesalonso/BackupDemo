@@ -10,7 +10,7 @@ PASSPHRASE='12345678'
 export PASSPHRASE
 
 # acció backup
-duplicity tipus carpeta_origen file://media/backup
+duplicity tipus carpeta_origen file:///media/backup
 
 
 # unset PASSPHRASE
