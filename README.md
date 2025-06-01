@@ -1,6 +1,6 @@
 # Exemple script per gestionar backup amb Duplicity
 
-Duplicity us permet fer backups d'un servidor Linux tant cap unitats locals, com cap unitats remotes. 
+Duplicity us permet fer backups d'un servidor Linux tant cap unitats locals, com cap unitats remotes.
 
 La informació sobre com usar Duplicity la teniu al següent link: [Duplicity man page](https://manpages.ubuntu.com/manpages/jammy/man1/duplicity.1.html)
 
@@ -78,11 +78,9 @@ I escriure la següent entrada:
 ```bash
 0   23   *   *   7   /root/fullBackup.sh
 ```
+
 Si volem que s'executi, per exemple, de dilluns a dissabte, es faria així:
 
 ```bash
 0   23  *  *   1-6 /root/fullBackup.sh
 ```
-
-
-
